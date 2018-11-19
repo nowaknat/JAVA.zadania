@@ -33,6 +33,13 @@ public class Main {
         int liczba3 = skaner_tak_cie_nazwalam.nextInt();
         System.out.println(liczba3 * liczba3);
 
+        //ZADANIE 6
+        int[] table = {12,12,5,4,6,6,7,9};
+
+        for(int i=0;i<table.length;i++){
+            System.out.println(table[i]);
+        }
+
 
 
 
