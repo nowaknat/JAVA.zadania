@@ -6,17 +6,19 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        //ZADANIE 1
 
+        //ZADANIE 1
         System.out.println("Hello World!");
 
         //ZADANIE 2
-
         System.out.println("Natalia 23");
 
+        //ZADANIE 3
+
+        //Date data = new Date();
+       // System.out.println(Date);
 
         //ZADANIE 4
-
         Scanner skaner_tak_cie_nazwalam = new Scanner(System.in);
         System.out.println("Podaj pierwsza liczbe");
         double liczba1 = skaner_tak_cie_nazwalam.nextDouble();
@@ -26,6 +28,10 @@ public class Main {
         System.out.println(liczba1 - liczba2);
         System.out.println(liczba1 * liczba2);
 
+        //ZADANIE 5
+        System.out.println("Podaj liczbe calkowita");
+        int liczba3 = skaner_tak_cie_nazwalam.nextInt();
+        System.out.println(liczba3 * liczba3);
 
 
 
