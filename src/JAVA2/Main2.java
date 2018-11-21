@@ -29,6 +29,16 @@ public class Main2 {
 
         }
 
+        //ZADANIE5
+        System.out.println("Podaj liczbe całkowita");
+        int liczba3 = skanerMoj.nextInt();
+        if (liczba3 >= 1 && liczba3 <=10){
+            System.out.println("twoja liczba należy do przedziału <1,10>");}
+        else {
+            System.out.println("twoja liczba nie należy do przedziału <1,10>");}
+
+
+
     }
 }
 
