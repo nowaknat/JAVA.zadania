@@ -28,8 +28,25 @@ public class Main2 {
                 break;
             default:
                 System.out.println("twoja liczba jest parzysta");
+                        }
 
-        }
+        //ZADANIE4
+        System.out.println("ZADANIE 4:");
+
+        int c =0;
+        int d = 0;
+        do { System.out.println("Podaj liczbę całkowitą");
+            int liczba4 = skanerMoj.nextInt();
+            c = liczba4 ;
+            d = d + c;
+            }
+        while (c !=0);
+
+
+        if (c == 0){
+            System.out.println("suma twoich liczb to: ");
+            System.out.println(d);}
+
 
         //ZADANIE5
         System.out.println("ZADANIE 5:");
@@ -55,18 +72,18 @@ public class Main2 {
         System.out.println("zakończono, bo podałeś 5") ; }
 
 
-//        //ZADANIE7
-//        System.out.println("ZADANIE 7:");
-//        System.out.println("Podaj liczbę całkowitą");
-//        int liczba5 = skanerMoj.nextInt();
-//        while (liczba5 %2 == 0){
-//            System.out.println("twoja liczba jest parzysta");
-//            break;
-//        }
-//        while (liczba5 %2 == 1){
-//            System.out.println("twoja liczba jest nieparzysta");
-//            break;
-//        }
+        //ZADANIE7
+        System.out.println("ZADANIE 7:");
+        System.out.println("Podaj liczbę całkowitą");
+        int liczba5 = skanerMoj.nextInt();
+        while (liczba5 %2 == 0){
+            System.out.println("twoja liczba jest parzysta");
+            break;
+        }
+        while (liczba5 %2 == 1){
+            System.out.println("twoja liczba jest nieparzysta");
+            break;
+        }
 
     }
 }
