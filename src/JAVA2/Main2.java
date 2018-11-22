@@ -41,26 +41,32 @@ public class Main2 {
             System.out.println("twoja liczba nie należy do przedziału <1,10>");}
 
 
-//        //ZADANIE6
-//          System.out.println("ZADANIE 6:");
-//        do { System.out.println("Podaj liczbę całkowitą");
-//            int liczba4 = skanerMoj.nextInt()}
-//        liczba4 = int b;
-//        while (b !=0 && b !=5);
+       //ZADANIE6
+         System.out.println("ZADANIE 6:");
+
+        int b =0;
+            do { System.out.println("Podaj liczbę całkowitą");
+                int liczba4 = skanerMoj.nextInt();
+                b = liczba4 ; }
+        while (b !=0 && b !=5);
+        if (b == 0){
+            System.out.println("zakończono, bo podałeś 0");}
+        if (b == 5) {
+        System.out.println("zakończono, bo podałeś 5") ; }
 
 
-        //ZADANIE7
-        System.out.println("ZADANIE 7:");
-        System.out.println("Podaj liczbę całkowitą");
-        int liczba5 = skanerMoj.nextInt();
-        while (liczba5 %2 == 0){
-            System.out.println("twoja liczba jest parzysta");
-            break;
-        }
-        while (liczba5 %2 == 1){
-            System.out.println("twoja liczba jest nieparzysta");
-            break;
-        }
+//        //ZADANIE7
+//        System.out.println("ZADANIE 7:");
+//        System.out.println("Podaj liczbę całkowitą");
+//        int liczba5 = skanerMoj.nextInt();
+//        while (liczba5 %2 == 0){
+//            System.out.println("twoja liczba jest parzysta");
+//            break;
+//        }
+//        while (liczba5 %2 == 1){
+//            System.out.println("twoja liczba jest nieparzysta");
+//            break;
+//        }
 
     }
 }
