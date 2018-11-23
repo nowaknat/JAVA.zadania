@@ -100,7 +100,7 @@ public class Main2 {
             System.out.println("twoja liczba jest nieparzysta");
             break;
         }
-
+        skanerMoj.close();
     }
 }
 
