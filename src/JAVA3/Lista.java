@@ -56,8 +56,16 @@ public class Lista {
         for (int i = 0; i < rozmiar; i++) {
             for (int z = 0; z < rozmiar; z++) {
                 if (i != z && tablica[i] == tablica[z]) {
-                    tablica[z] = tablica[rozmiar-1];
+                    for (int t =z; t<rozmiar; t++) {
+                        tablica[t] = tablica [t+1];
+                    }
+//                    tablica[z] = tablica[z+1];
+//                    tablica[z+1] = tablica[z+2];
+//                    tablica[z+2] = tablica[z+3];
+//                    tablica[z+3] = tablica[z+4];
+
                     rozmiar = rozmiar -1;
+
                 }
             }
         }

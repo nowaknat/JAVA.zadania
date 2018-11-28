@@ -1,5 +1,7 @@
 package JAVA3;
 
+import java.util.Arrays;
+
 import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 
 public class Main3 {
@@ -44,6 +46,13 @@ public class Main3 {
         lista.dodawanie(6);
         lista.dodawanie(7);
         lista.dodawanie(5);
+        lista.dodawanie(10);
+        lista.dodawanie(12);
+        lista.dodawanie(13);
+        lista.dodawanie(13);
+        lista.wyświetlanie();
+        lista.usuwanie(6);
+        lista.szukanie(11);
         lista.duplikaty();
         lista.wyświetlanie();
 
