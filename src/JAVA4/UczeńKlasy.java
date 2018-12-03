@@ -14,9 +14,17 @@ public class UczeńKlasy extends UczeńSzkoły {
         return nazwa_klasy;
     }
 
+    @Override
+    public String toString() {
+        return "UczeńKlasy{" +
+                "nazwa_klasy='" + nazwa_klasy + '\'' +
+                ", nazwa_szkoły='" + nazwa_szkoły + '\'' +
+                ", pesel=" + pesel +
+                ", imię='" + imię + '\'' +
+                ", nazwisko='" + nazwisko + '\'' +
+                '}';
+    }
 
-
-
-    //PYTANIE: GDZIE MAM WPISAĆ DANE(IMIE, NAZWISKO, SZKOŁĘ I KLASĘ). MYŚLĘ, ZE TU, TYLKO JAK?
+//PYTANIE: GDZIE MAM WPISAĆ DANE(IMIE, NAZWISKO, SZKOŁĘ I KLASĘ). MYŚLĘ, ZE TU, TYLKO JAK?
 
 }

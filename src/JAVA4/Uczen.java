@@ -1,9 +1,9 @@
 package JAVA4;
 
 public class Uczen {
-    private long pesel;
-    private String imię;
-    private String nazwisko;
+    protected long pesel;  //protected trzeba robic, żeby potem można było generate "toString" : prawy przycisk -> generate -> toString -> zaznaczyć co
+    protected String imię;
+    protected String nazwisko;
 
     public void Ustaw_Imię(String imię) {
         this.imię=imię;
@@ -25,13 +25,5 @@ public class Uczen {
     public long zwróćPesel(){
         return pesel;
     }
-
-//    @Override
-//    public String toString() {
-//        return "Uczen{" +
-//                "pesel=" + pesel +
-//                ", imię='" + imię + '\'' +
-//                ", nazwisko='" + nazwisko + '\'' +
-//                '}';
     }
 
