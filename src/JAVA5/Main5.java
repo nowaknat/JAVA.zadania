@@ -9,7 +9,7 @@ public class Main5 {
         b = 4;
         double bnowe;
         String c;
-       // c = "mama";
+        // c = "mama";
         short d;
         d = 5;
         byte e;
@@ -21,14 +21,23 @@ public class Main5 {
         e = (byte) d;
         g = e;
 
-      //  int y = Integer.parseInt(c);
+        //  int y = Integer.parseInt(c);
         c = String.valueOf(a);
         System.out.println(bnowe);
         System.out.println(c);
         System.out.println(g);
-      //  System.out.println(y);
+        //  System.out.println(y);
 
         //zadanie 2
-        Zaokrąglanie.zaokrąglanie(5.2);
-    }
-}
+        Zaokrąglanie.zaokrąglanie(-5.7);
+
+        //zadanie 3
+        try {
+            Dzielenie.dzielenie(5, 0);
+        }
+        catch(IllegalArgumentException ex)
+        {
+            System.out.println("Masz problem: " + ex);
+        }
+            }
+        }

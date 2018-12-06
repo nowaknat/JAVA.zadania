@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26a2afc3-9af9-41ef-8d8a-3cf5b692da63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CODEWARS/Circles_in_polygons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CODEWARS/Count_of_positives_and_negatives.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CODEWARS/Find_the_smallest_integer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CODEWARS/Keep_hydrated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CODEWARS/Love_like_hate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CODEWARS/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CODEWARS/Summation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CODEWARS/Volume_of_cuboid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JAVA5/Main5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JAVA5/Zaokrąglanie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JAVA5/Dzielenie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA1.zadania/JAVA1/Main1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA1.zadania/JAVA4/Main4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA1.zadania/JAVA4/Main4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JAVA4/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JAVA4/Main4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JAVA5/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JAVA5/Main5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JAVA5/Zaokrąglanie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JAVA5/Zaokrąglanie.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,84 +33,51 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="11146" />
+          <entry key="java" value="11601" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11146" />
+          <entry key="JAVA" value="11601" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="37" />
+          <entry key="java" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="37" />
+          <entry key="JAVA" value="38" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CODEWARS/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JAVA3/Main3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="784">
-              <caret line="48" column="28" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="48" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JAVA2/Main2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="9" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="18" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CODEWARS/Circles_in_polygons.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/JAVA5/Main5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+            <state relative-caret-position="557">
+              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JAVA5/Zaokrąglanie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="35" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="16" selection-end-column="35" />
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JAVA5/Dzielenie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -172,8 +128,9 @@
         <option value="$PROJECT_DIR$/src/CODEWARS/Keep_hydrated.java" />
         <option value="$PROJECT_DIR$/src/CODEWARS/Circles_in_polygons.java" />
         <option value="$PROJECT_DIR$/src/JAVA5/zaokrąglanie.java" />
-        <option value="$PROJECT_DIR$/src/JAVA5/Main5.java" />
         <option value="$PROJECT_DIR$/src/JAVA5/Zaokrąglanie.java" />
+        <option value="$PROJECT_DIR$/src/JAVA5/Dzielenie.java" />
+        <option value="$PROJECT_DIR$/src/JAVA5/Main5.java" />
       </list>
     </option>
   </component>
@@ -242,7 +199,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544093192068" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544095712242" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
@@ -375,13 +332,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4932763" visible="true" weight="0.16928251" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49266502" visible="true" weight="0.16928251" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910313" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295964" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49755502" weight="0.32847533" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5067237" side_tool="true" visible="true" weight="0.16928251" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49694377" weight="0.32847533" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50733495" side_tool="true" visible="true" weight="0.16928251" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.59718823" weight="0.13340807" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -607,17 +564,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JAVA5/Main5.java">
+    <entry file="file://$PROJECT_DIR$/src/JAVA5/Zaokrąglanie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JAVA5/Zaokrąglanie.java">
+    <entry file="file://$PROJECT_DIR$/src/JAVA5/Dzielenie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="35" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="16" selection-end-column="35" />
+        <state relative-caret-position="153">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JAVA5/Main5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
         </state>
       </provider>
     </entry>
