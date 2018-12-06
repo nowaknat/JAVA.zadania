@@ -1,5 +1,6 @@
 package JAVA4;
 
+
 public class Main4 {
     public static void main(String[] args) {
 
@@ -30,6 +31,8 @@ public class Main4 {
         Human człowiek1 = new Human();
         człowiek1.Ustaw_imię_człowieka("Natalia");
         System.out.println(człowiek1);
+
+
     }
 }
 
