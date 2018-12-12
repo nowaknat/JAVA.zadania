@@ -13,7 +13,7 @@ public class Password_System {
             }
         }
             if(pomocnicza == 0){System.out.println("Hasło jest symetryczne");}
-            if(pomocnicza == 1){System.out.println("Hasło nie jest symetryczne");}
+            if(pomocnicza == 1){System.out.println("Hasło nie jest symetryczne!");}
 
     }
 }
