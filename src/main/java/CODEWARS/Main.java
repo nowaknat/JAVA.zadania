@@ -22,6 +22,12 @@ public class Main {
 
         //ZADANIE 7
         Circles_in_polygons.średnica(4,2);
+
+        //ZADANIE 8
+        Counting_sheeps.liczenie(new String[]{"true", "true", "false", "true", "false", "true", "true"});
+
+        //ZADANIE 9
+        System.out.println(RemoveFirstAndLastCharacter.usuwanieLiter("Natalia"));
     }
 }
 
