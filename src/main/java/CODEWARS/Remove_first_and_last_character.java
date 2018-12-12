@@ -1,6 +1,6 @@
 package CODEWARS;
 
-public class RemoveFirstAndLastCharacter {
+public class Remove_first_and_last_character {
     public static String usuwanieLiter(String word){
 
         // pierwszy sposób:

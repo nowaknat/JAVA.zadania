@@ -27,7 +27,10 @@ public class Main {
         Counting_sheeps.liczenie(new String[]{"true", "true", "false", "true", "false", "true", "true"});
 
         //ZADANIE 9
-        System.out.println(RemoveFirstAndLastCharacter.usuwanieLiter("Natalia"));
+        System.out.println(Remove_first_and_last_character.usuwanieLiter("Natalia"));
+
+        //ZADANIE 10
+        Password_System.symetria(new int[]{1,0,1,1,1,0,1});
     }
 }
 
