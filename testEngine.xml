@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Nazwa Suite">
+    <parameter name="liczba" value="5"/>
+    <test name="JAVA1.zadania">
+        <classes>
+            <class name="JAVA6.KalkulatorTestNG">
+                <methods>
+                    <exclude name=".*testDodawania.*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+
+

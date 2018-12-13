@@ -31,6 +31,9 @@ public class Main {
 
         //ZADANIE 10
         Password_System.symetria(new int[]{1,0,1,1,1,0,1});
+
+        //ZADANIE 11
+        System.out.println(Hero_root.pierwiastek(112,9));
     }
 }
 
