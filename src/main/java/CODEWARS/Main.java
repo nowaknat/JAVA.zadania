@@ -33,7 +33,10 @@ public class Main {
         Password_System.symetria(new int[]{1,0,1,1,1,0,1});
 
         //ZADANIE 11
-        System.out.println(Hero_root.pierwiastek(112,9));
+        System.out.println(Hero_root.pierwiastek(112,9)); //nie działa
+
+        //ZADANIE 12
+        Snail_crawls_up.czołganie(10,3,1);
     }
 }
 
