@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Nazwa Suite">
+    <parameter name="value" value="firefox"/>
+    <test name="JAVA1.zadania">
+        <classes>
+            <class name="JAVA6.TestNG">
+                <methods>
+                    <include name="main_test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+
+
+

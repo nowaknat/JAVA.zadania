@@ -7,9 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.util.concurrent.TimeUnit;
 
@@ -20,25 +18,29 @@ public class TestNG {
     public void main_test() {
         driver.get("http://www.google.com");
         WebElement element = driver.findElement(By.name("q"));
-        element.sendKeys("Cheese!");
+        element.sendKeys("Thor!");
         element.submit();
         System.out.println("Page title is: " + driver.getTitle());
 
         (new WebDriverWait(driver, 10)).until(new ExpectedCondition<Boolean>() {
             public Boolean apply(WebDriver d) {
-                return d.getTitle().toLowerCase().startsWith("cheese!");
+                return d.getTitle().toLowerCase().startsWith("thor!");
             }
         });
-
         System.out.println("Page title is: " + driver.getTitle());
     }
-
+    @Parameters({"value"})
     @BeforeMethod
-    public void beforeMethod() {
-        driver = new FirefoxDriver();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-    }
+    public void before_method(@Optional("chrome") String value) {
 
+        if (value.equals("chrome")) {
+            driver = new ChromeDriver();
+            driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        } else {
+            driver = new FirefoxDriver();
+            driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        }
+    }
     @AfterMethod
     public void afterMethod() {
         driver.quit();
