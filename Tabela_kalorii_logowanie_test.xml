@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Nazwa Suite">
+    <parameter name="value" value="chrome"/>
+    <test name="JAVA1.zadania">
+        <classes>
+            <class name="JAVA6.Tabela_kalorii_logowanie">
+                <methods>
+                    <include name="logowanie_test"/>
+                    <include name="raporty_test"/>
+                    <include name="witaminy_test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+

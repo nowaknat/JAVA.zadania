@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26a2afc3-9af9-41ef-8d8a-3cf5b692da63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testNG.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tabela_kalorii_logowanie_test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JAVA6/Korona_szwedzka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JAVA6/Tabela_kalorii_logowanie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JAVA6/TestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JAVA6/TestNG.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/JAVA6/TestNG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JAVA6/TestNG.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,6 +18,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/JAVA1_zadania$Tabela_kalorii_logowanie.ic" NAME="Tabela_kalorii_logowanie Coverage Results" MODIFIED="1545031900682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>JAVA6.*</FILTER>
+    </SUITE>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-984873409">
@@ -40,30 +46,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="15747" />
-          <entry key="xml" value="440" />
+          <entry key="java" value="16485" />
+          <entry key="xml" value="560" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15747" />
-          <entry key="XML" value="440" />
+          <entry key="JAVA" value="16485" />
+          <entry key="XML" value="560" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="85" />
-          <entry key="xml" value="12" />
+          <entry key="iml" value="2" />
+          <entry key="java" value="100" />
+          <entry key="xml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="85" />
-          <entry key="XML" value="12" />
+          <entry key="IDEA_MODULE" value="2" />
+          <entry key="JAVA" value="100" />
+          <entry key="XML" value="17" />
         </counts>
       </usages-collector>
     </session>
@@ -71,60 +77,83 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testEngine.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/JAVA6/Tabela_kalorii_logowanie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-72">
-              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/JAVA6/TestNG.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            <state relative-caret-position="404">
+              <caret line="104" column="84" selection-start-line="104" selection-start-column="84" selection-end-line="104" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#865#1044#0" expanded="true" />
-                <element signature="e#1043#1044#0" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
+                <element signature="e#923#924#0" expanded="true" />
+                <element signature="e#989#990#0" expanded="true" />
+                <element signature="e#1024#1025#0" expanded="true" />
+                <element signature="e#1083#1084#0" expanded="true" />
+                <element signature="e#1118#1119#0" expanded="true" />
+                <element signature="e#1304#1305#0" expanded="true" />
+                <element signature="e#1339#1340#0" expanded="true" />
+                <element signature="e#1400#1401#0" expanded="true" />
+                <element signature="e#1435#1436#0" expanded="true" />
+                <element signature="e#1496#1497#0" expanded="true" />
+                <element signature="e#1531#1532#0" expanded="true" />
+                <element signature="e#1589#1590#0" expanded="true" />
+                <element signature="e#1624#1625#0" expanded="true" />
+                <element signature="e#1677#1678#0" expanded="true" />
+                <element signature="e#1712#1713#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testNG.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/JAVA6/Korona_szwedzka.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="47">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#1347#1348#0" expanded="true" />
+                <element signature="e#1384#1385#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testEngine2.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/JAVA6/KalkulatorTestNG.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="5" selection-start-line="1" selection-start-column="7" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar!/org/openqa/selenium/firefox/FirefoxDriver.class">
+        <entry file="file://$PROJECT_DIR$/src/test/java/JAVA5/KalkulatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1966">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="727">
+              <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JAVA1.zadania.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-236" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tabela_kalorii_logowanie_test.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -146,9 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Main1.java" />
-        <option value="$PROJECT_DIR$/src/JAVA3/Dogs.java" />
-        <option value="$PROJECT_DIR$/src/JAVA3/Lista.java" />
         <option value="$PROJECT_DIR$/src/JAVA3/Main3.java" />
         <option value="$PROJECT_DIR$/src/JAVA4/Uczeń.java" />
         <option value="$PROJECT_DIR$/src/JAVA4/Main4 -Uczeń.java" />
@@ -195,8 +221,11 @@
         <option value="$PROJECT_DIR$/src/main/java/CODEWARS/Snail_crawls_up.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/testEngine.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/JAVA6/TestNG.java" />
         <option value="$PROJECT_DIR$/testNG.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/JAVA6/TestNG.java" />
+        <option value="$PROJECT_DIR$/src/test/java/JAVA6/Korona_szwedzka.java" />
+        <option value="$PROJECT_DIR$/Tabela_kalorii_logowanie_test.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/JAVA6/Tabela_kalorii_logowanie.java" />
       </list>
     </option>
   </component>
@@ -252,7 +281,31 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="CODEWARS" type="462c0819:PsiDirectoryNode" />
+              <item name="JAVA2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA1.zadania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA1.zadania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JAVA3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA1.zadania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA1.zadania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JAVA4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA1.zadania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA1.zadania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JAVA5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JAVA1.zadania" type="b2602c69:ProjectViewProjectNode" />
@@ -297,7 +350,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544781090088" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545124337685" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
@@ -325,23 +378,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/nowaknat/IdeaProjects/JAVA1.zadania/testNG.xml">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CODEWARS.Main" />
+  <component name="RunManager" selected="TestNG.Tabela_kalorii_logowanie">
+    <configuration name="C:/Users/nowaknat/IdeaProjects/JAVA1.zadania/Tabela_kalorii_logowanie_test.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JAVA1.zadania" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CODEWARS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/nowaknat/IdeaProjects/JAVA1.zadania/testEngine.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JAVA1.zadania" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testEngine.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Tabela_kalorii_logowanie_test.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -359,7 +399,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KalkulatorTestNG" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Korona_szwedzka" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JAVA1.zadania" />
       <extension name="coverage">
         <pattern>
@@ -368,7 +408,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="JAVA6" />
-      <option name="MAIN_CLASS_NAME" value="JAVA6.KalkulatorTestNG" />
+      <option name="MAIN_CLASS_NAME" value="JAVA6.Korona_szwedzka" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tabela_kalorii_logowanie" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JAVA1.zadania" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JAVA6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JAVA6" />
+      <option name="MAIN_CLASS_NAME" value="JAVA6.Tabela_kalorii_logowanie" />
       <properties />
       <listeners />
       <method v="2">
@@ -392,19 +448,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="TestNG.KalkulatorTestNG" />
-      <item itemvalue="TestNG.C:/Users/nowaknat/IdeaProjects/JAVA1.zadania/testEngine.xml" />
       <item itemvalue="TestNG.TestNG" />
       <item itemvalue="TestNG.C:/Users/nowaknat/IdeaProjects/JAVA1.zadania/testNG.xml" />
+      <item itemvalue="TestNG.Tabela_kalorii_logowanie" />
+      <item itemvalue="TestNG.C:/Users/nowaknat/IdeaProjects/JAVA1.zadania/Tabela_kalorii_logowanie_test.xml" />
+      <item itemvalue="TestNG.Korona_szwedzka" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Tabela_kalorii_logowanie" />
+        <item itemvalue="TestNG.Korona_szwedzka" />
+        <item itemvalue="TestNG.C:/Users/nowaknat/IdeaProjects/JAVA1.zadania/Tabela_kalorii_logowanie_test.xml" />
         <item itemvalue="TestNG.C:/Users/nowaknat/IdeaProjects/JAVA1.zadania/testNG.xml" />
         <item itemvalue="TestNG.TestNG" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="TestNG.C:/Users/nowaknat/IdeaProjects/JAVA1.zadania/testEngine.xml" />
-        <item itemvalue="TestNG.KalkulatorTestNG" />
       </list>
     </recent_temporary>
   </component>
@@ -422,35 +478,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestNG - 2018.12.14 at 10h 20m 18s.xml">
-      <configuration name="TestNG" configurationId="TestNG" />
+    <history-entry file="Tabela_kalorii_logowanie - 2018.12.18 at 09h 50m 47s.xml">
+      <configuration name="Tabela_kalorii_logowanie" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestNG - 2018.12.14 at 10h 21m 27s.xml">
-      <configuration name="TestNG" configurationId="TestNG" />
+    <history-entry file="Tabela_kalorii_logowanie - 2018.12.18 at 09h 51m 51s.xml">
+      <configuration name="Tabela_kalorii_logowanie" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestNG - 2018.12.14 at 10h 21m 37s.xml">
-      <configuration name="TestNG" configurationId="TestNG" />
+    <history-entry file="Tabela_kalorii_logowanie - 2018.12.18 at 09h 53m 29s.xml">
+      <configuration name="Tabela_kalorii_logowanie" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestNG - 2018.12.14 at 10h 22m 26s.xml">
-      <configuration name="TestNG" configurationId="TestNG" />
+    <history-entry file="Tabela_kalorii_logowanie - 2018.12.18 at 09h 58m 51s.xml">
+      <configuration name="Tabela_kalorii_logowanie" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestNG - 2018.12.14 at 10h 23m 34s.xml">
-      <configuration name="TestNG" configurationId="TestNG" />
+    <history-entry file="Tabela_kalorii_logowanie - 2018.12.18 at 09h 59m 19s.xml">
+      <configuration name="Tabela_kalorii_logowanie" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestNG - 2018.12.14 at 10h 24m 02s.xml">
-      <configuration name="TestNG" configurationId="TestNG" />
+    <history-entry file="Tabela_kalorii_logowanie - 2018.12.18 at 10h 00m 26s.xml">
+      <configuration name="Tabela_kalorii_logowanie" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestNG - 2018.12.14 at 10h 24m 47s.xml">
-      <configuration name="TestNG" configurationId="TestNG" />
+    <history-entry file="Tabela_kalorii_logowanie - 2018.12.18 at 10h 01m 25s.xml">
+      <configuration name="Tabela_kalorii_logowanie" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestNG - 2018.12.14 at 10h 25m 57s.xml">
-      <configuration name="TestNG" configurationId="TestNG" />
+    <history-entry file="Tabela_kalorii_logowanie - 2018.12.18 at 10h 03m 19s.xml">
+      <configuration name="Tabela_kalorii_logowanie" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestNG - 2018.12.14 at 10h 33m 29s.xml">
-      <configuration name="TestNG" configurationId="TestNG" />
+    <history-entry file="Tabela_kalorii_logowanie - 2018.12.18 at 10h 05m 44s.xml">
+      <configuration name="Tabela_kalorii_logowanie" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestNG - 2018.12.14 at 10h 40m 29s.xml">
-      <configuration name="TestNG" configurationId="TestNG" />
+    <history-entry file="Tabela_kalorii_logowanie - 2018.12.18 at 10h 06m 17s.xml">
+      <configuration name="Tabela_kalorii_logowanie" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -466,7 +522,7 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24633251" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24633251" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -475,7 +531,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49205378" visible="true" weight="0.35986546" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49205378" visible="true" weight="0.35986546" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910313" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -632,13 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JAVA5/Zaokrąglanie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JAVA5/DzielnikNieMożeByćZerem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -681,13 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/JAVA6/KalkulatorTestNG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JAVA3/Dogs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -702,37 +744,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JAVA3/Main3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="48" column="28" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="48" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JAVA1.zadania.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JAVA2/Main2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CODEWARS/Remove_first_and_last_character.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JAVA5/Kalkulator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -747,13 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/JAVA5/KalkulatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -795,22 +803,51 @@
     <entry file="file://$PROJECT_DIR$/target/testNG.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/testNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/JAVA6/TestNG.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        <state relative-caret-position="489">
+          <caret line="47" column="1" lean-forward="true" selection-end-line="47" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#865#1044#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#1522#1523#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testNG.xml">
+    <entry file="file://$PROJECT_DIR$/JAVA1.zadania.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="-236" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JAVA2/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="2" selection-end-line="7" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JAVA3/Main3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="48" column="28" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="48" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testEngine.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -821,10 +858,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testEngine.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JAVA5/Zaokrąglanie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JAVA5/Kalkulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JAVA5/KalkulatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="727">
+          <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JAVA6/KalkulatorTestNG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JAVA6/Korona_szwedzka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1384#1385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tabela_kalorii_logowanie_test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JAVA6/Tabela_kalorii_logowanie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="104" column="84" selection-start-line="104" selection-start-column="84" selection-end-line="104" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1531#1532#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="true" />
+            <element signature="e#1624#1625#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
+            <element signature="e#1712#1713#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
