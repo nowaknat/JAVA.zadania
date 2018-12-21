@@ -46,7 +46,6 @@ public class Main2 {
         }
 
 
-
         //ZADANIE4
         System.out.println("ZADANIE 4:");
 

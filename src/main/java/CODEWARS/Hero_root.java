@@ -1,16 +1,18 @@
 package CODEWARS;
 
 public class Hero_root {
-    public static double pierwiastek(int n, double x) {
+    public static int pierwiastek(int n, int x) {
         int e =1;
-        double stała = x;
+        //double stała = x;
         int licznik = 0;
-        do{
+        int previous_x;
+        do{ previous_x = x;
             x=(x+n/x)/2;
             licznik=licznik+1;
+            System.out.println(x);
         }
-        while(x-stała<e);
-        System.out.println("pierwiastek z twojej liczby: " + (int) x);
+        while(x- previous_x >= e);
+        System.out.println("pierwiastek z twojej liczby: " + x);
         return licznik;}
     }
 
