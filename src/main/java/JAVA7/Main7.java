@@ -43,7 +43,7 @@ public class Main7 {
         names.add("Bartek");
         names.add("Patrycja");
         names.add("Adrian");
-        names.add("Natlia");
+        names.add("Natalia");
         //duplikuję
         for(String name: names){
             System.out.println(name + " " + name);

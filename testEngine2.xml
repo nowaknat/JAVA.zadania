@@ -28,4 +28,3 @@ public class TestNG {
     public void afterMethod() {
     driver.quit();
     }
-}
