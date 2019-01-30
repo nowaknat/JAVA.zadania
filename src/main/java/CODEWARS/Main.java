@@ -44,8 +44,16 @@ public class Main {
 //        //ZADANIE 14
 //        Remove_exclamation_mark.usuwanieWykrzyknika("ty!jesteś!");
 
-          //ZADANIE 15
-          Banjo.banjo("Natalia");
+//        //ZADANIE 15
+//          Banjo.banjo("Natalia");
+
+//       //ZADANIE 16
+//        System.out.println(Going_to_the_cinema.zwrot(500, 15,0.90));
+
+//        //ZADANIE 17
+//        DNA_to_RNA.konwersja(new String[]{"D","T","A","A","C","T"});
+
+
     }
 }
 

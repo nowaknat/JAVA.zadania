@@ -51,7 +51,7 @@ public class Lista {
     }
 
 
-    public void duplikaty() {
+    public void duplikaty() { //troszke oszukany sposób - działa tylko jeśli z góry określam rozmiar
         System.out.println("To jest tablica z usuniętymi duplikatami:");
         for (int i = 0; i < rozmiar; i++) {
             for (int z = 0; z < rozmiar; z++) {
